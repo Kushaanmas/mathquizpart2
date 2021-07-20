@@ -1,0 +1,43 @@
+<html>
+<head>
+	<title>Math quiz</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="mathquiz.css">
+
+
+
+</head>
+<body>
+<center>
+	<h2 style="color: aliceblue;">Math quiz</h2>
+    <br>
+    <br>
+
+    <h4 id="player1name"></h4><span id="player1score"></span>
+    <br>
+    <h4 id="player2name"></h4><span id="player2score"></span>
+    <br>
+    <br>
+
+    <div class="container">
+        <h3 id="playerquestion"></h3>
+        <h3 id="playeranswer"></h3>
+        <div id="output" class="col-lg-6">
+            <br>
+            <br>
+        </div>
+            <label>send your question  : <b style="color: red;">Try putting any math question</b></label>
+            <input type="text" id="word" class="form-control" placeholder="enter your word">
+            <br>
+            <button onclick="send()" class="btn btn-success" style="width: 30%;">Send</button>
+    </div>
+
+</center>
+<script src="mathquiz.js"></script>
+</body>
+</html>
